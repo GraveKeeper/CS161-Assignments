@@ -1,0 +1,120 @@
+Sean Harrington
+Cs161
+
+1. 
+a. The array name is "passwords"
+b. The array size is 100
+c. The data type of the array is double
+d. The range of values is from 0 - 100
+
+2.
+a. Valid, it has a data type string the name of the array is "employees"
+and it has an array size of 82
+b. Not valid, it is incorrect array notation, it is missing a "]" right after the number 50
+c. Valid, the integer SIZE is declared and is placed in as the size of the array itself
+d. Valid, this is fine because the size of the array is equal to 10
+e. Not valid, the size of an array cannot be negative
+f. Not valid, names is not a data type it would be right if you flipped the two
+
+3.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{     //part a and b
+     double beta[20] = {0};
+    //part c
+    cout << beta [5] << endl;
+    //part d
+    beta [9] = 70.50;
+    //part e
+    beta [12] = (beta [8] * 4) - 15;
+    //part f
+    for(int i = 0; i <= 20; i++)
+    {
+
+        if (i%3 == 0)
+        {
+          cout << beta[i] << endl;
+        }
+        else
+        {
+          cout << endl;
+        }
+        beta[i] = beta[i] + 1;
+
+    }
+
+}
+
+4. It outputs 144
+5.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int myList[10];
+
+for (int i = 0; i <= 10; i++){
+
+    myList[i] = i;
+
+}
+
+    for (int ii = 0; ii <= 10; ii++){
+
+        cout << myList[ii] << endl;
+        cout << endl;
+    }
+
+
+}
+6.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+double heights[10] = {5.2,6.3,5.8,4.9,5.2,5.7,6.7,
+7.1,5.10,6,0};
+
+int weights[7] = {120,125,137,140,150,180,210};
+
+string seasons[3] = {"Fall", "Winter", "Spring", "Summer"};
+
+char specialSymbols[6] = {'$','#','%', '@', '&','!','^'};
+
+
+}
+
+7. 16 32 44 56 68 37 20
+
+8.
+a. Valid
+b. Valid
+c. Not valid
+d. Valid
+
+9.
+If I am reading this question right, this is relating to the last question with respect to
+the index of the array being passed as a parameter of the function.
+
+10.
+
+Index:
+[0] = 6
+[1] = 10
+[2] = 14
+[3] = 18
+[4] = 22
+[5] --- [7] = 0
+d.
+
+
+
+
+

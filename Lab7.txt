@@ -1,0 +1,62 @@
+Sean Harrington
+CS161
+
+1.
+#include<iostream>
+#include<cmath>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+    string yes, no, input;
+
+    enum courseType {
+        ALGEBRA = 0,
+        BEGINNING_SPANISH = 1,
+        ASTRONOMY = 2,
+        GENERAL_CHEMISTRY = 3,
+        PHYSICS = 4,
+        LOGIC = 5};
+
+    courseType newClass = ASTRONOMY;
+
+    cout << "Advance? (yes and only yes)" << endl;
+    cin >> input;
+
+    if (input == yes)
+    {
+      newClass = static_cast<courseType>(newClass + 1);
+    }
+
+    cout << newClass << endl;
+
+}
+
+2.
+void cool ()
+{
+courseType instance;
+int x;
+cin >> x;
+
+instance = static_cast<courseType>(instance);
+
+}
+
+3.
+a.Heelo Thlre
+b.Giamond Dold
+c.Ca+ J+va
+
+4.
+a.Programming < Project
+b.Summer < Trip
+c.Winter > Cold
+
+5.
+a. 30
+b. the time
+c. the party
+d. Now is the best time for the party!
+e. Now is the time to study for the exam?

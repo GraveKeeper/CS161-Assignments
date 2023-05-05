@@ -1,0 +1,43 @@
+assaignment 1
+
+You are given a list of students’ names and their test scores. Design an algorithm
+that does the following: 
+
+a.Calculates the average test scores.
+
+b. Determines and prints the names of all the students whose test scores are
+below the average test score.
+
+c. Determines the highest test score.
+
+d. Prints the names of all the students whose test scores are the same as the
+highest test score
+
+	ask for input promt for how many students
+
+	ask for input of student test grades
+
+	 take number/names of students and test grades and devide by number of students
+
+	set the highest score = to the first score then compare each incoming score to the highet score if score=higher then revious score
+then make the new score the highest.
+
+	if = to highestscore print studentname and student score.
+	
+The dealer’s cost of a car is 85% of the listed price. The dealer would accept any
+offer that is at least $500 over the dealer’s cost. Design an algorithm that prompts
+the user to input the list price of the car and print the least amount that the dealer
+would accept for the car.
+
+
+	tell the user to input the cost of the car
+
+	take input
+	
+	take input and * by the % cost of the car then add 500
+
+	formula == (input*85) + 500 
+
+	print the min amount that would be payed for the car
+
+	end program;

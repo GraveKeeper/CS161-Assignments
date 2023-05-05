@@ -1,0 +1,76 @@
+Sean Harrington
+CS 161
+Lab 1
+
+
+1. Convert the following 2s complement binary numbers to decimal numbers. (25 points)
+a. 10110101
+	-75
+b. 01110101
+	117
+c. 11110110
+	-11
+d. 00011001
+	25
+e. 10101010
+	-86
+2. Convert the following decimal numbers to binary numbers using 2s complements. (25 points)
+a. -65	
+	10111111
+b. -73
+	1001011
+c. 47
+	00101111
+d. 56
+	00111000
+e. -10
+	11111010
+
+3. A piece of wire is to be bent in the form of a rectangle to put around a picture frame. The length
+of the picture frame is 1.5 times the width. If you are given the length of the wire to be 10
+inches, calculate the length and width of the rectangle. Please solve the problem using Math,
+and step by step instructions on how you did it. The instructions should be in steps and not a
+paragraph. Mention all assumptions you may make, write down all the formula you used for the
+calculation and give your solution at the end with the right units. If you do not follow all the
+steps, and write all the details, you will not get full credit. (25 points)
+
+2W + 2L = 10
+
+1.5w = L
+
+2W + (2*(1.5W)) = 10
+
+3w = 10
+
+5W = 10
+
+W = 2
+
+4 + 2L = 10
+
+2L = 6
+
+L = 3
+
+4. A room has one door, two windows, and a built-in bookshelf and it needs to be painted.
+Suppose that one gallon of paint can paint 120 square feet. The length and width of the door is
+9ft by 3.5ft. The length and width of the windows are 4ft by 3ft. The length and width of the
+book shelf is 9ft by 4 ft. The length, width, and height of the room is 20ft by 25ft by 20ft.
+Calculate and output the amount of paint needed to paint the walls of the room. Please solve
+the problem using Math, and step by step instructions on how you did it. The instructions
+should be in steps and not a paragraph. Mention all assumptions you may make, write down all
+the formula you used for the calculation and give your solution at the end with the right units. If
+you do not follow all the steps, and write all the details, you will not get full credit. (25 points)
+
+assuming that you are painting behind the book case you need 15 Gallons of paint
+size of room that needs to be painted
+
+2(20*20)+2(20*25)
+	800+1000 =1800 sqft
+window and door sizes
+Door = 9 X 3.5= 31.5
+Windows = 2(4x3) = 24
+
+	1800-31.5-24 = 1744.5/120 = 14.5375
+
+you will need 15 gallons of paint

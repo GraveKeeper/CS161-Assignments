@@ -1,0 +1,12 @@
+January 48 35
+Febuary 52 35
+March 56 37
+April 61 40
+May 68 45
+Jun 74 49
+July 82 53
+August 82 53
+September 77 48 
+October 64 42
+November 53 38
+December 46 34

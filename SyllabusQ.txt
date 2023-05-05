@@ -1,0 +1,42 @@
+Sean Harrington
+
+Syllabus Scavenger Hunt · Fall 2018
+Portland Community College¦ Department of Computer Science
+Discover the answers to the following questions about the syllabus for this course. Please
+do not copy and paste from the syllabus. Answer ALL questions in your own words, as you
+understand.
+
+
+What is your professor’s name?
+Glen Sasek
+
+List two ways you can get in touch with your professor.
+you can email or come to office hours and or before class
+
+What materials will you need for this course?
+C++ Programming, From Problem Analysis to Program Design  
+
+Where do you get your assignments and when is your first assignment due?
+on the assignments tab on the D2L page and assignments and labs are due sundays at 11:59
+
+
+What are weekly labs and how much are they worth?
+the booost critical thinking skills and are 20% of the overall grade
+
+How many on campus/proctored exams do you have?
+2 midterm and final
+
+When are they done?
+the middle and end of the term
+
+How can you earn extra credit in this class?
+participation and catching errors during presentations.
+
+How will your grade be determined in this course?
+by the work you accomplesh and the midterm and final grades
+
+True or False: Deadlines are a fact of real life.
+True
+
+List any other questions regarding the class.
+none

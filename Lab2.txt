@@ -1,0 +1,179 @@
+Sean Harrington
+CS 161
+Lab 2
+
+1) Evaluate the following:
+a) 28 - 3 + 6
+31
+
+b) 32 % 12 + 6 - 36 / 5 * 8
+-42
+
+c) 4 – 6 % 11
+-2
+
+d) 18.0 + 5.0 * 3.0 / 4.0
+21.75
+
+2) If int x = 3; int y = 18; double z = 9.5; and double w = 3.5; 
+evaluate each of the following statements,
+if possible. If it is not possible, state the reason.
+a) (?? + ??) % ??
+(3+18)%18
+=3
+
+b) ?? % ?? – ??
+-0.5
+
+c) ?? % (?? + ??)
+6.5
+
+d) (?? + ??) / ??
+7.857142
+
+3) Which of the following variable declarations are correct? If a variable declaration is not correct, give
+the reason and provide the correct variable declaration.
+
+a) double conversion = 2.5;
+correct
+b) char grade = ‘B+’;
+incorrect character variables only store one variable and it needs a string
+string grade = ‘B+’;
+c) double 28.5 = num;
+incorrect it should be double num = 28.5
+
+d) string message = ‘ ‘ First C++ course’;
+correct
+
+e) int age = 18 years;
+incorrect int can only hold a whole number value
+
+f) float x, y, decimal;
+correct 
+
+
+4) Suppose x, y, z, and w are int variables. What value is assigned to each of these variables after the
+last statement executes?
+x = 4; y = 11;
+z = y - 2 * x;
+x = z + y;
+y = x + 5 * z;
+w = x - y + 2 * z;
+x = y + w - x;
+
+w = -9
+x = 6
+y = 29
+z = 3
+
+
+5) Suppose x, y, and z are int variables and w and t are double variables. What value is assigned to
+each of these variables after the last statement executes?
+x = 23;
+y = 35;
+x = ?? + ?? / 4 - 3;
+z = ?? % 3;
+w = 28 / 3 + 6.5 * 2;
+t = ?? / 4.0 + 15 % 4 - 3.5;
+
+t = 6.5
+w = 22
+x = 28
+y = 35
+z = 1
+
+6) Write C++ statements that accomplish the following:
+
+a) Output the newline character.
+cout << '\n';
+or
+cout << endl; 
+b) Output the tab character.
+cout << "/t" << endl;
+c) Output double quotation mark.
+cout << "\"\"" << endl;
+
+
+
+7) Give meaningful identifiers for the following variables:
+a) A variable to store the first name of a student.
+stname
+
+b) A variable to store the discounted price of an item.
+discount
+
+c) A variable to store the number of juice bottles.
+Jb
+
+d) A variable to store the number of miles traveled.
+mtravel
+
+e) A variable to store the highest test score.
+hscore
+
+
+
+8) Write C++ statements to do the following:
+
+a) Declare int variable num1 and num2
+int num1,num2;
+b) Prompt the user to input two numbers.
+cout << " please enter 2 numbers " << endl;
+
+c) Input the first number in num1 and the second number in num2
+cin >> num1;
+cin >> num2; 
+
+d) Output num1, num2, and 2 times num1 minus num2. Your output must
+identify each number and the expression.
+cout << "you inputs were " << num1 << " " << num2 << " " << endl;
+cout << " this is what your first and second number equal "<< 2*num1 - num2 << endl;
+
+9) Suppose a, b, and c are int variables and a = 5 and b = 6. 
+What value is assigned to each variable after each statement executes?
+ If a variable is undefined at a particular statement, report UND (undefined).
+a b c
+a = (b++) + 3;
+a=9 b=7 c=und
+c = 2 * a + (++b);
+a=9 b=8 c=26
+b = 2 * (++c) - (a++);
+a=10 b=45 c=27
+
+10) What is printed by the following program? Suppose the input is:
+Miller
+34
+340
+
+#include <iostream>
+#include <string>
+using namespace std;
+const int PRIME_NUM = 11;
+int main()
+{
+const int SECRET = 17;
+string name;
+int id;
+int num;
+int mysteryNum;
+cout << "Enter last name: ";
+cin >> name;
+cout << endl;
+cout << "Enter a two digit number: ";
+cin >> num;
+cout << endl;
+id = 100 * num + SECRET;
+cout << "Enter a positive integer less than 1000: ";
+cin >> num;
+cout << endl;
+mysteryNum = num * PRIME_NUM - 3 * SECRET;
+cout << "Name: " << name << endl;
+cout << "Id: " << id << endl;
+cout << "Mystery number: " << mysteryNum << endl;
+return 0;
+}
+
+The Program outputs:
+Name: Miller
+Id: 3417
+Mystery number: 3689
